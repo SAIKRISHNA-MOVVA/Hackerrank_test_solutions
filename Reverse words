@@ -1,0 +1,10 @@
+def reverse_words_order_and_swap_cases(sentence):
+    words = sentence.split()
+    words = list(reversed(words))
+    txt = " "
+    x = txt.join(words)
+    return(x.swapcase())
+
+
+sentence = input()
+print(reverse_words_order_and_swap_cases(sentence))
